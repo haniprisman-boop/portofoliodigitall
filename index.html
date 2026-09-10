@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Hanip Risman AB | Digital Portfolio</title>
+
+<meta name="description"
+    content="Portofolio digital Hanip Risman AB - Siswa TKJ SMKN 1 Ketapang">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- CSS -->
+<link rel="stylesheet" href="styles.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- =========================
+     WELCOME SCREEN
+========================== -->
+<div class="welcome-screen">
+
+    <div class="welcome-decoration decoration-one"></div>
+    <div class="welcome-decoration decoration-two"></div>
+
+    <div class="welcome-card">
+
+        <div class="leaf-icon">
+            <i class="fa-solid fa-leaf"></i>
+        </div>
+
+        <span class="small-title">WELCOME TO MY PORTFOLIO</span>
+
+        <h1>
+            Hi, I'm
+            <span>Hanip Risman AB</span>
+        </h1>
+
+        <p>
+            Selamat datang di ruang digital saya.
+            Kenali perjalanan, keahlian, dan karya saya.
+        </p>
+
+        <!--
+            Tampilan form.
+            Untuk menyimpan nama pengunjung secara online
+            nantinya perlu Google Apps Script / database.
+        -->
+        <form class="visitor-form">
+
+            <label for="visitor-name">
+                Sebelum masuk, siapa namamu?
+            </label>
+
+            <div class="input-box">
+                <i class="fa-regular fa-user"></i>
+
+                <input
+                    type="text"
+                    id="visitor-name"
+                    name="visitor-name"
+                    placeholder="Masukkan nama kamu..."
+                    required
+                >
+            </div>
+
+            <button type="submit" class="enter-button">
+                Masuk ke Portofolio
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+        <div class="welcome-bottom">
+            <i class="fa-solid fa-tree"></i>
+            <span>Grow • Create • Inspire</span>
+            <i class="fa-solid fa-tree"></i>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- =========================
+     NAVIGATION
+========================== -->
+
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span>H</span>
+        <div>
+            <strong>Hanip</strong>
+            <small>Digital Portfolio</small>
+        </div>
+    </a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">
+        Let's Connect
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+
+</header>
+
+
+<main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-background">
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+        </div>
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <span class="eyebrow">
+                    <i class="fa-solid fa-leaf"></i>
+                    DIGITAL PORTFOLIO
+                </span>
+
+                <h1>
+                    Creating with
+                    <em>technology</em>
+                    & creativity.
+                </h1>
+
+                <p>
+                    Haii! Nama saya <strong>Hanip Risman AB</strong>.
+                    Saya seorang siswa TKJ yang memiliki ketertarikan
+                    pada dunia teknologi, desain, fotografi, dan
+                    kreativitas digital.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="primary-button">
+                        Kenali Saya
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+
+                    <a href="#contact" class="secondary-button">
+                        Hubungi Saya
+                    </a>
+                </div>
+
+                <div class="hero-info">
+
+                    <div>
+                        <strong>XI TKJ 2</strong>
+                        <span>Class</span>
+                    </div>
+
+                    <div>
+                        <strong>TKJ</strong>
+                        <span>Major</span>
+                    </div>
+
+                    <div>
+                        <strong>SMKN 1</strong>
+                        <span>Ketapang</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-photo">
+
+                <div class="photo-frame">
+
+                    <div class="photo-decoration"></div>
+
+                    <img
+                        src="foto-hanip.jpg"
+                        alt="Foto Hanip Risman AB"
+                    >
+
+                    <div class="photo-label">
+                        <span>HANIP</span>
+                        <small>RISMAN AB</small>
+                    </div>
+
+                </div>
+
+                <div class="floating-card card-top">
+                    <i class="fa-solid fa-code"></i>
+                    <div>
+                        <strong>Tech</strong>
+                        <span>Creative</span>
+                    </div>
+                </div>
+
+                <div class="floating-card card-bottom">
+                    <i class="fa-solid fa-camera"></i>
+                    <div>
+                        <strong>Visual</strong>
+                        <span>Storyteller</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <span>SCROLL TO EXPLORE</span>
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section id="about" class="section about">
+
+        <div class="section-heading">
+
+            <span class="section-number">01</span>
+
+            <div>
+                <span class="section-label">ABOUT ME</span>
+                <h2>Tentang <em>saya</em></h2>
+            </div>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-image">
+
+                <div class="image-border"></div>
+
+                <img
+                    src="foto-hanip.jpg"
+                    alt="Hanip Risman AB"
+                >
+
+                <div class="nature-stamp">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>KEEP<br>GROWING</span>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <span class="mini-title">
+                    HELLO THERE!
+                </span>
+
+                <h3>
+                    Teknologi bertemu
+                    dengan <span>kreativitas.</span>
+                </h3>
+
+                <p>
+                    Haii, nama saya <strong>Hanip Risman AB</strong>.
+                    Saya bersekolah di
+                    <strong>SMKN 1 KETAPANG</strong>, jurusan
+                    Teknik Komputer dan Jaringan (TKJ), kelas
+                    <strong>XI TKJ 2</strong>.
+                </p>
+
+                <p>
+                    Saya tidak hanya tertarik pada dunia IT.
+                    Saya juga senang mengeksplorasi dunia desain,
+                    fotografi, editing foto, dan berbagai kegiatan
+                    kreatif lainnya.
+                </p>
+
+                <div class="about-details">
+
+                    <div>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>
+                            <span>Pendidikan</span>
+                            <strong>SMKN 1 Ketapang</strong>
+                        </div>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <div>
+                            <span>Jurusan</span>
+                            <strong>Teknik Komputer & Jaringan</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-heading">
+
+            <span class="section-number">02</span>
+
+            <div>
+                <span class="section-label">MY SKILLS</span>
+                <h2>Keahlian & <em>kreativitas</em></h2>
+            </div>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card featured">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+
+                <span>01</span>
+
+                <h3>Information Technology</h3>
+
+                <p>
+                    Memiliki ketertarikan dan kemampuan
+                    di bidang teknologi informasi dan
+                    jaringan komputer.
+                </p>
+
+                <div class="skill-line"></div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-pen-nib"></i>
+                </div>
+
+                <span>02</span>
+
+                <h3>Graphic Design</h3>
+
+                <p>
+                    Membuat poster, infografis, dan desain
+                    visual untuk berbagai kebutuhan.
+                </p>
+
+                <div class="skill-line"></div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+                <span>03</span>
+
+                <h3>Social Media Design</h3>
+
+                <p>
+                    Membuat desain feed Instagram yang
+                    menarik, estetik, dan komunikatif.
+                </p>
+
+                <div class="skill-line"></div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+
+                <span>04</span>
+
+                <h3>Nature Photography</h3>
+
+                <p>
+                    Mengabadikan keindahan alam melalui
+                    fotografi dan storytelling visual.
+                </p>
+
+                <div class="skill-line"></div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+
+                <span>05</span>
+
+                <h3>Photo Editing</h3>
+
+                <p>
+                    Mengolah dan menyempurnakan foto
+                    agar terlihat lebih menarik dan estetik.
+                </p>
+
+                <div class="skill-line"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         EXPERIENCE
+    ========================== -->
+
+    <section id="experience" class="section experience-section">
+
+        <div class="section-heading">
+
+            <span class="section-number">03</span>
+
+            <div>
+                <span class="section-label">MY JOURNEY</span>
+                <h2>Pengalaman & <em>kegiatan</em></h2>
+            </div>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-drum"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>EXPERIENCE 01</span>
+
+                    <h3>Pelatih Drumband</h3>
+
+                    <h4>MTsN 1 Ketapang</h4>
+
+                    <p>
+                        Berpengalaman menjadi pelatih drumband
+                        dan membantu anggota dalam latihan,
+                        kedisiplinan, serta kekompakan tim.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-music"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>EXPERIENCE 02</span>
+
+                    <h3>Gita Pesona</h3>
+
+                    <h4>SMKN 1 Ketapang</h4>
+
+                    <p>
+                        Menjadi bagian dari anggota drumband
+                        Gita Pesona SMKN 1 Ketapang.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>EXPERIENCE 03</span>
+
+                    <h3>Badminton</h3>
+
+                    <h4>SMKN 1 Ketapang</h4>
+
+                    <p>
+                        Mengikuti kegiatan badminton sebagai
+                        salah satu aktivitas olahraga di sekolah.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-people-group"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>EXPERIENCE 04</span>
+
+                    <h3>OSIS — Sekbid 4</h3>
+
+                    <h4>Hubungan Masyarakat</h4>
+
+                    <p>
+                        Menjadi anggota OSIS Sekbid 4 (Humas)
+                        yang berfokus pada kemampuan komunikasi
+                        dan public speaking.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         QUOTE
+    ========================== -->
+
+    <section class="quote-section">
+
+        <div class="quote-leaf">
+            <i class="fa-solid fa-leaf"></i>
+        </div>
+
+        <blockquote>
+            "Create something meaningful,
+            <br>
+            <em>one step at a time.</em>"
+        </blockquote>
+
+        <span>— HANIP RISMAN AB</span>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="contact-box">
+
+            <div class="contact-text">
+
+                <span class="section-label">GET IN TOUCH</span>
+
+                <h2>
+                    Let's create
+                    <em>something</em>
+                    together.
+                </h2>
+
+                <p>
+                    Punya pertanyaan, ide, atau ingin
+                    berkolaborasi? Jangan ragu untuk
+                    menghubungi saya.
+                </p>
+
+            </div>
+
+
+            <div class="contact-info">
+
+                <a href="mailto:haniprisman@gmail.com" class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+                        <strong>haniprisman@gmail.com</strong>
+                    </div>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+
+                </a>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+
+                    <div>
+                        <span>Sekolah</span>
+                        <strong>SMKN 1 KETAPANG</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <div>
+                        <span>Kelas</span>
+                        <strong>XI TKJ 2</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
+
+    <div class="footer-logo">
+        <span>H</span>
+        <strong>Hanip Risman AB</strong>
+    </div>
+
+    <p>
+        Designed & created with
+        <i class="fa-solid fa-heart"></i>
+        by Hanip.
+    </p>
+
+    <span class="copyright">
+        © 2026 — Digital Portfolio
+    </span>
+
+</footer>
+```
+
+</body>
+</html>
